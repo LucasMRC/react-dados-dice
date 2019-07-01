@@ -1,5 +1,7 @@
-.App {
+.App > * {
+  color: #6b6b6b;
   text-align: center;
+  letter-spacing: 0.05rem;
 }
 
 .App-logo {

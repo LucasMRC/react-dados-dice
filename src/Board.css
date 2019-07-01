@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,700&display=swap');
+
+.Board {
+    font-weight: 300;
+}
+
+.Board-container {
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Board-select, .Board-button {
+    border: .1rem solid #6b6b6b;
+    color: #6b6b6b;
+    padding: .5rem;
+    border-radius: .3rem;
+    font-size: 1rem;
+    font-weight: bold;
+	margin-left: 1rem;
+	cursor: pointer;
+}
+
+.Board-select:focus, .Board-button:focus {
+    outline: none;
+}
+
+.Board-button.rolling {
+	background-color: #6b6b6b;
+	color: rgba(215,219,255,1);
+	cursor: wait;
+}

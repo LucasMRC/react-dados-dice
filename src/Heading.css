@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Sniglet&display=swap');
+
+.Heading {
+    height: 25vh;
+    font-family: 'Sniglet', cursive;
+}
+
+.Heading header {
+    font-size: 2rem;
+}

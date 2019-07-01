@@ -1,0 +1,32 @@
+.Die {
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+.Die h1 {
+    margin: 0;
+}
+
+.Die.rolling {
+    animation: roll 500ms linear 1;
+}
+
+@keyframes roll {
+    
+    25% {
+        transform: translateX(100%) rotate(45deg) scale(0.7);
+    }
+    
+    50% {
+        transform: translateX(0%) rotate(90deg) scale(0.5);
+    }
+
+    75% {
+        transform: translateX(-100%) rotate(180deg) scale(0.7);
+    }
+
+    100% {
+        transform: translateX(0%) rotate(360deg) scale(1);
+    }
+
+}

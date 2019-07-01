@@ -1,0 +1,23 @@
+.DiceGame-languages {
+	list-style-type: none;
+	position: absolute;
+}
+
+.DiceGame-languages li p {
+	margin: 0;
+}
+
+.DiceGame-languages li p button {
+	color: #6b6b6b;
+	border: none;
+    background: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+    padding-right: 0;
+}
+
+.DiceGame-languages li p button:focus {
+	outline: none;
+}
